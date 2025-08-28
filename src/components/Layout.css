@@ -1,0 +1,16 @@
+.sidebar-link {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  list-style: none;
+}
+
+.sidebar-link:hover {
+  background-color: #f0f0f0;
+  color: #754423;
+}
+
+.sidebar-link.selected {
+  font-weight: normal;
+  color: #754423;
+}

@@ -9,10 +9,13 @@ import "../assets/css/w3-theme-teal.css";
 import "../assets/css/carousel.css";
 import "../assets/css/cardspin-test.css";
 import "../assets/css/flip.css";
-import BootstrapCarousel from "../components/Carousel"; //
+import BootstrapCarousel from "../components/Carousel";
+import { useModal } from "../context/ModalContext";
+import GlobalModal from "../components/GlobalModal";
 
 // ...existing code...
 const IconsPage = () => {
+  const { openModal } = useModal();
   return (
     <>
       <div id="dashboard" className="content2 grid-containerink">
@@ -58,7 +61,7 @@ const IconsPage = () => {
             >
               <img
                 src="./icons.png"
-                className="w3-circle"
+                className="w3-circle hover-img"
                 style={{
                   width: 160,
                   marginBottom: 40,
@@ -69,6 +72,7 @@ const IconsPage = () => {
                   borderRadius: "10px",
                 }}
                 alt="Avatar"
+                onClick={() => openModal("icons1")}
               />
             </p>
             <div className="details">
@@ -95,7 +99,7 @@ const IconsPage = () => {
             >
               <img
                 src="./ng-blue.png"
-                className="w3-circle"
+                className="w3-circle hover-img"
                 style={{
                   width: 160,
                   marginBottom: 40,
@@ -106,6 +110,7 @@ const IconsPage = () => {
                   borderRadius: "10px",
                 }}
                 alt="Avatar"
+                onClick={() => openModal("icons2")}
               />
             </p>
             <div className="details">
@@ -133,7 +138,7 @@ const IconsPage = () => {
             >
               <img
                 src="./ng-logo.png"
-                className="w3-circle"
+                className="w3-circle hover-img"
                 style={{
                   width: 160,
                   marginBottom: 40,
@@ -144,6 +149,7 @@ const IconsPage = () => {
                   borderRadius: "10px",
                 }}
                 alt="Avatar"
+                onClick={() => openModal("icons3")}
               />
             </p>
             <div className="details">
@@ -171,7 +177,7 @@ const IconsPage = () => {
             >
               <img
                 src="./ng-log0.png"
-                className="w3-circle"
+                className="w3-circle hover-img"
                 style={{
                   width: 160,
                   marginBottom: 40,
@@ -182,6 +188,7 @@ const IconsPage = () => {
                   borderRadius: "10px",
                 }}
                 alt="Avatar"
+                onClick={() => openModal("icons4")}
               />
             </p>
             <div className="details">
@@ -203,6 +210,7 @@ const IconsPage = () => {
         {/* Adds Carousel*/}
         <BootstrapCarousel />
       </div>
+      <GlobalModal />
     </>
   );
 };

@@ -1,5 +1,6 @@
 import NavBar from "./NavBar";
 import Footer from "./Footer";
+import "./Layout.css"; // Import css style for sidebar
 
 const pages = [
   { name: "Home", key: "home" },
@@ -19,10 +20,9 @@ const Layout = ({ children, selectedPage, onSetPage }) => {
       ) => (
         <li
           key={page.key} // Creates a list item for each page
-          style={{
-            ...styles.sidebarLink, // Add style to the links based on the css style sidebarLink
-            ...(page.key === selectedPage ? styles.selected : {}), // Add adifferent style to link if currnet page is selected.
-          }}
+          className={`sidebar-link ${
+            page.key === selectedPage ? "selected" : ""
+          }`}
           onClick={() => onSetPage(page.key)} // Ehen click the onSetPage function runs to update page
         >
           {page.name}
@@ -72,7 +72,8 @@ const styles = {
     backgroundColor: "#97928fff",
     /*opacity: 0.5,*/
     padding: "5px",
-    paddingTop: "10px",
+    paddingTop: "100px",
+    fontSize: "18px",
   },
   content: {
     flex: 1,

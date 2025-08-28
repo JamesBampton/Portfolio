@@ -1,6 +1,6 @@
 // GitHubPage.js
 import React, { useState, useEffect } from "react"; // import react library and two 'hooks', useState and useEffect
-
+import "../assets/css/myStyles.css";
 /* const GitHubPage = () => {
   return (
     <div>
@@ -58,13 +58,16 @@ const GitHubPage = () => {
         <h2></h2>
         <p>Go visit my repos</p>
 
-        <ul>
+        <ul className="repo-list">
           {items.map((item) => (
             // <li  key={item.id}>{item.url}</li>
-            <li key={item.id}>
+            <li key={item.id} className="repo-card">
               <a href={item.html_url} target="_blank" rel="noopener noreferrer">
                 {item.name}
               </a>
+              <p className="repo-description">
+                {item.description || "No description provided."}
+              </p>
             </li>
           ))}
         </ul>

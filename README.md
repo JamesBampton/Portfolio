@@ -1,26 +1,3 @@
-React-Portfolio
-Create a personal portfolio using react
-
-Installation and Setup
-Instructions
-\*\*Setting Up
-
-Clone Project locally
-
-git clone <>
-
-Navigating and Installing:
-Navigate into your project folder
-cd my-first-react-app
-Install dependencies:
-npm install
-2.a To use bootstrap install This gives you Bootstrap-styled components as React elements — no need to manually write class names.
-npm install react-bootstrap bootstrap
-Launching the App:
-Run the development server
-npm run dev
-Open the provided local server address (usually http://localhost:3000) in your browser to view your app, but check the console to see the URL the app is running on.
-
 ## Project
 
 Portfolio Project

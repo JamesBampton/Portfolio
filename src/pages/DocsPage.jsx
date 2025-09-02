@@ -28,7 +28,7 @@ const DocsPage = () => {
               className="centered myfontL"
               style={{ backgroundImage: "url(${myImage})" }}
             >
-              DOCUMENTATION
+              DOCs
               <br />
               <p className="myfontS">Designs</p>
             </div>

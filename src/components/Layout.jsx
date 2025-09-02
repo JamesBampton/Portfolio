@@ -68,7 +68,7 @@ const styles = {
     display: "flex",
   },
   sidebar: {
-    width: "230px",
+    width: "140px",
     backgroundColor: "#97928fff",
     /*opacity: 0.5,*/
     padding: "5px",

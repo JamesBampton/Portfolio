@@ -50,7 +50,7 @@ export const modalItems = [
   {
     id: 'img1',
     title: 'TEAM BRANDING',
-    image: '../public/brand-poster-lg.png',
+    image: 'public/brand-poster-lg.png',
     content: `
       <h2>Design</h2>
       <p><b>Team Branding</b><br>
@@ -61,7 +61,7 @@ export const modalItems = [
   {
     id: 'img2',
     title: 'APPLICATION HEADER',
-    image: '../public/home-pack-back-torn-cut.png',
+    image: 'public/home-pack-back-torn-cut.png',
     content: `
       <h2>Design</h2>
       <p><b>Immage for a travel blog header</b><br>
@@ -72,7 +72,7 @@ export const modalItems = [
   {
     id: 'img3',
     title: 'APPLICATION BRANDING',
-    image: '../public/logo-port-hole2.png',
+    image: 'public/logo-port-hole2.png',
     content: `
       <h2>Design</h2>
       <p><b>Branding for a travel blog</b><br>
@@ -82,7 +82,7 @@ export const modalItems = [
    {
     id: 'img4',
     title: 'BUSINESS LOGO',
-    image: '../public/mender-post-final-sq-60.jpg',
+    image: 'public/mender-post-final-sq-60.jpg',
     content: `
       <h2>Design</h2>
       <p><b>The Mender, maintenance business</b><br>
@@ -93,7 +93,7 @@ export const modalItems = [
   {
     id: 'img5',
     title: 'BUSINESS LOGO',
-    image: '../public/mender-bgd.png',
+    image: 'public/mender-bgd.png',
     content: `
       <h2>Design</h2>
       <p><b>The Mender, maintenace business</b><br></p>
@@ -104,7 +104,7 @@ export const modalItems = [
   {
     id: 'img6',
     title: 'QUIZ NIGHT POSTER',
-    image: '../public/brain-teasers5.jpg',
+    image: 'public/brain-teasers5.jpg',
     content: `
       <h2>Design</h2>
       <p><b>Workplace quiz night advertising</b><br></p>
@@ -114,7 +114,7 @@ export const modalItems = [
   {
     id: 'img7',
     title: 'QUIZ NIGHT POSTER',
-    image: '../public/Quiz-Poster-Template-Tamer.jpg',
+    image: 'public/Quiz-Poster-Template-Tamer.jpg',
     content: `
       <h2>Design</h2>
       <p><b>Another workplace quiz night advertising</b><br></p>
@@ -124,7 +124,7 @@ export const modalItems = [
   {
     id: 'img8',
     title: 'APPLICATION FOOTER',
-    image: '../public/ioc-footer.png',
+    image: 'public/ioc-footer.png',
     content: `
       <h2>Design</h2>
       <p><b>Used in the footer of a weather Application</b><br></p>
@@ -135,7 +135,7 @@ export const modalItems = [
     {
     id: 'img9',
     title: 'WORK EVENT POSTER',
-    image: '../public/know-your-neigh4.jpg',
+    image: 'public/know-your-neigh4.jpg',
     content: `
       <h2>Design</h2>
       <p><b>Used to advertise a workplace event</b><br></p>
@@ -149,7 +149,7 @@ export const modalItems = [
     {
     id: 'docs1',
     title: 'JIRA ALIGN FLOW',
-    image: '../public/jira-align-workflow.png',
+    image: 'public/jira-align-workflow.png',
     content: `
       <h2>Design</h2>
       <p><b>Reference diagram showing internal flow</b><br></p>
@@ -159,7 +159,7 @@ export const modalItems = [
     {
     id: 'docs2',
     title: 'APPLICATION FLOW DIAGRAM',
-    image: '../public/UI-flow.png',
+    image: 'public/UI-flow.png',
     content: `
       <h2>Design</h2>
       <p><b>Network and Server Flow</b><br></p>
@@ -169,7 +169,7 @@ export const modalItems = [
     {
     id: 'docs3',
     title: 'REFERENCE DIAGRAM',
-    image: '../public/table-polling.png',
+    image: 'public/table-polling.png',
     content: `
       <h2>Design</h2>
       <p><b>SNMP Table Polling</b><br></p>
@@ -179,7 +179,7 @@ export const modalItems = [
     {
     id: 'docs4',
     title: 'APPLICATION FLOW DIAGRAM',
-    image: '../public/solution-pack-flow.png',
+    image: 'public/solution-pack-flow.png',
     content: `
       <h2>Design</h2>
       <p><b>Server and Backend Connections</b><br></p>
@@ -190,7 +190,7 @@ export const modalItems = [
      {
     id: 'docs5',
     title: 'BUSINESS WORKFLOW',
-    image: '../public/boarding-flow.png',
+    image: 'public/boarding-flow.png',
     content: `
       <h2>Design</h2>
       <p><b>Workflow ofr a specific prrocess</b><br></p>
@@ -203,7 +203,7 @@ export const modalItems = [
    {
     id: 'graf1',
     title: 'GRANFANA VISUALIZATION',
-    image: '../public/dash-analysis.png',
+    image: 'public/dash-analysis.png',
     content: `
       <h2>Design</h2>
       <p><b>Incorporating HTML and CSS into Grafana</b><br></p>
@@ -215,7 +215,7 @@ export const modalItems = [
    {
     id: 'graf2',
     title: 'GRANFANA VISUALIZATION',
-    image: '../public/Dashboard-example-drill-down.png',
+    image: 'public/Dashboard-example-drill-down.png',
     content: `
       <h2>Design</h2>
       <p><b>Using Grafana's standard visualization</b><br></p>
@@ -228,7 +228,7 @@ export const modalItems = [
   {
     id: 'web1',
     title: 'EARLY PROFILE',
-    image: '../public/portfolio-simple.png',
+    image: 'public/portfolio-simple.png',
     content: `
       <h2>Design</h2>
       <p><b>HTML, CSS</b><br></p>
@@ -238,7 +238,7 @@ export const modalItems = [
   {
     id: 'web2',
     title: 'BUBBLES LANUDRETTE',
-    image: '../public/bubbles.png',
+    image: 'public/bubbles.png',
     content: `
       <h2>Design</h2>
       <p><b>HTML, CSS</b><br>
@@ -248,7 +248,7 @@ export const modalItems = [
   {
     id: 'web3',
     title: 'BMX STORE',
-    image: '../public/branded-bmx.png',
+    image: 'public/branded-bmx.png',
     content: `
       <h2>Design</h2>
       <p><b>HTML, CSS, Bootstrap</b><br></p>
@@ -258,7 +258,7 @@ export const modalItems = [
   {
     id: 'web4',
     title: 'WEATHER APP',
-    image: '../public/weather-app.png',
+    image: 'public/weather-app.png',
     content: `
       <h2>Design</h2>
       <p><b>HTML, CSS, Bootstrap, javaScript, API</b><br></p>

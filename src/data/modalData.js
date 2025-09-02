@@ -114,7 +114,7 @@ export const modalItems = [
   {
     id: 'img7',
     title: 'QUIZ NIGHT POSTER',
-    image: '../public/brain-teasers5.jpg',
+    image: '../public/Quiz-Poster-Template-Tamer.jpg',
     content: `
       <h2>Design</h2>
       <p><b>Another workplace quiz night advertising</b><br></p>
@@ -129,6 +129,18 @@ export const modalItems = [
       <h2>Design</h2>
       <p><b>Used in the footer of a weather Application</b><br></p>
       <p>Showing the path of the weather elements during a day and different types of weather.</p>
+    `
+  },
+
+    {
+    id: 'img9',
+    title: 'WORK EVENT POSTER',
+    image: '../public/know-your-neigh4.jpg',
+    content: `
+      <h2>Design</h2>
+      <p><b>Used to advertise a workplace event</b><br></p>
+      <p>Used a simple black and white design and a spalsh of orange,  splitting poster if half but background colour, loosly based off the film Unusual suspects
+      as the guest speaker was not announced the poster reflect this hiddne identify in its style with the characters just being silhouettes</p>
     `
   },
 
@@ -229,8 +241,8 @@ export const modalItems = [
     image: '../public/bubbles.png',
     content: `
       <h2>Design</h2>
-      <p><b>HTML, CSS/b><br></p>
-      <p>Challenge 2 in the bootcamp course to, using HTML, CSS and some bacic animation and scripting for modals/p>
+      <p><b>HTML, CSS</b><br>
+      Challenge 2 in the bootcamp course to, using HTML, CSS and some bacic animation and scripting for modals</p>
     `
   },
   {

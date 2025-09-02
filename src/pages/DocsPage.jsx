@@ -192,10 +192,10 @@ const DocsPage = () => {
             </p>
             <div className="details">
               <h2>
-                Background for Web page
+                Process flow digram
                 <br />
                 <span style={{ color: "#a05b2e" }}>
-                  Designed for a Business
+                  Simplify technical flows for key components
                 </span>
               </h2>
             </div>
@@ -231,10 +231,10 @@ const DocsPage = () => {
             </p>
             <div className="details">
               <h2>
-                Background for Web page
+                Process flow diagram
                 <br />
                 <span style={{ color: "#a05b2e" }}>
-                  Designed for a Business
+                  Breaking down the steps of a process
                 </span>
               </h2>
             </div>
@@ -270,10 +270,10 @@ const DocsPage = () => {
             </p>
             <div className="details">
               <h2>
-                Background for Web page
+                Grafana Visualisation
                 <br />
                 <span style={{ color: "#a05b2e" }}>
-                  Designed for a Business
+                  Business text visualisation using html and css
                 </span>
               </h2>
             </div>
@@ -309,10 +309,10 @@ const DocsPage = () => {
             </p>
             <div className="details">
               <h2>
-                Background for Web page
+                Grafana Visualisation
                 <br />
                 <span style={{ color: "#a05b2e" }}>
-                  Designed for a Business
+                  Clear representation of complex data
                 </span>
               </h2>
             </div>

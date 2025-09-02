@@ -309,10 +309,10 @@ const ImagesPage = () => {
             </p>
             <div className="details">
               <h2>
-                The Mender business Poster
+                Quiz night Poster
                 <br />
                 <span style={{ color: "#a05b2e" }}>
-                  Design around a 1940's style
+                  Design to look like a film poster 1960's
                 </span>
               </h2>
             </div>
@@ -348,10 +348,49 @@ const ImagesPage = () => {
             </p>
             <div className="details">
               <h2>
-                The Mender business Poster
+                Weather Application Footer
                 <br />
                 <span style={{ color: "#a05b2e" }}>
-                  Design around a 1940's style
+                  Design using a clipart style
+                </span>
+              </h2>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="layer"></div>
+            <p
+              className="w3-center hover-img"
+              style={{
+                paddingBottom: 0,
+                height: "90%",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
+            >
+              <img
+                src="./know-your-neigh4.jpg"
+                className="w3-circle"
+                style={{
+                  width: 160,
+                  marginBottom: 40,
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  zIndex: 1,
+                  borderRadius: "10px",
+                }}
+                alt="Avatar"
+                onClick={() => openModal("img9")}
+              />
+            </p>
+            <div className="details">
+              <h2>
+                Know Your Neighborr Poster
+                <br />
+                <span style={{ color: "#a05b2e" }}>
+                  Based on unusual suspects
                 </span>
               </h2>
             </div>
